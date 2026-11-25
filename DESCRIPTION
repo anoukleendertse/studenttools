@@ -1,0 +1,16 @@
+Package: studenttools
+Title: Tool voor studenten
+Version: 0.1.0
+Authors@R: 
+    person("Anouk", "Leendertse", , "anouk.leendertse@student.hu.nl", role = c("aut", "cre"))
+Description: Geeft nuttige informatie terug over de cijfers van de student, 
+  zoals gemiddelde, eindcijfers, voldoendes en onvoldoendes en een 
+  cijferoverzicht.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Config/roxygen2/version: 8.1.1
