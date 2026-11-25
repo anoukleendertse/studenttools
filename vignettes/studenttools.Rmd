@@ -1,5 +1,5 @@
 ---
-title: "studenttools"
+title: "Studenttools"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{studenttools}
@@ -17,13 +17,13 @@ knitr::opts_chunk$set(
 library(studenttools)
 ```
 
-# Intro
+## Intro
 
 studenttools is een R-package die studenten kan helpen gemakkelijk, zonder berekeningen te hoeven uitvoeren, hun gemiddelde cijfer, eindcijfer, voldoendes en onvoldoendes en een cijfer overzicht in te zien.
 
 Dit hieronder zijn de 4 functies die in deze R-package bestaan.
 
-# 1. Gemiddelde
+### 1. Gemiddelde
 
 Deze functie berekent het gemiddelde van een reeks cijfers
 die door een student zijn behaald.
@@ -35,7 +35,7 @@ een voorbeeld hiervan is
 bereken_gemiddelde(c(7, 7, 6, 9))
 ```
 
-# 2. Eindcijfer
+### 2. Eindcijfer
 
 De output van deze functie is het berekende gewogen eindcijfer van 2 cijfers en hun percentages
 
@@ -46,7 +46,7 @@ Bijvoorbeeld een examen geld voor 60% mee en een project voor 40%:
 bereken_eindcijfer(7.5, 8, 60, 40)
 ```
 
-# 3. voldoende
+### 3. Voldoende
 
 Deze functie kijkt of het cijfer een voldoende of onvoldoende is. Een voldoende is een 5.5 in dit geval.
 
@@ -57,7 +57,7 @@ controleer_voldoende(7)
 controleer_voldoende(4.5)
 ```
 
-# 4. cijferoverzicht
+### 4. Cijferoverzicht
 
 Deze functie maakt een mooi overzicht van de cijfers van de student.
 De output is een lijst met het aantal cijfers, het gemiddelde, het hoogste cijfer en het laagste cijfer.
@@ -68,6 +68,6 @@ functie: 'maak_cijferoverzicht()'
 maak_cijferoverzicht(c(7, 8, 6, 9))
 ```
 
-# afsluiter
+## Afsluiter
 
 De studenttools is een handige en makkelijk te gebruiken tool die studenten kunnen gebruiken. Zodat studenten een beter overzicht krijgen van hun cijfers.
