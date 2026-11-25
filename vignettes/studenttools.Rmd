@@ -19,7 +19,7 @@ library(studenttools)
 
 ## Intro
 
-studenttools is een R-package die studenten kan helpen gemakkelijk, zonder berekeningen te hoeven uitvoeren, hun gemiddelde cijfer, eindcijfer, voldoendes en onvoldoendes en een cijfer overzicht in te zien.
+Studenttools is een R-package die studenten kan helpen gemakkelijk, zonder berekeningen te hoeven uitvoeren, hun gemiddelde cijfer, eindcijfer, voldoendes en onvoldoendes en een cijfer overzicht in te zien.
 
 Dit hieronder zijn de 4 functies die in deze R-package bestaan.
 
